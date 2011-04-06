@@ -12,6 +12,10 @@ rild.libpath=/system/lib/librilswitch.so
 rilswitch.vendorlibpath=/system/lib/libhtc_ril.so
 rilswitch.ganlibpath=/system/lib/libganril.so
 
+# Perso
+ro.ril.enable.a52=0
+ro.ril.enable.amr.wideband=0
+
 ro.ril.enable.a53=1
 ro.ril.enable.dtm=0
 ro.ril.gprsclass=10
