@@ -13,8 +13,15 @@ rilswitch.vendorlibpath=/system/lib/libhtc_ril.so
 rilswitch.ganlibpath=/system/lib/libganril.so
 
 # Perso
-ro.ril.enable.a52=0
-ro.ril.enable.amr.wideband=0
+#ro.ril.enable.a52=0
+#ro.ril.enable.amr.wideband=0
+ro.ril.enable.dtm=1
+ro.ril.hep=1
+ro.ril.gprsclass=12
+ro.ril.hsdpa.category=28
+ro.ril.hsupa.category=9
+ro.ril.htcmaskw1.bitmask=4294967295
+ro.ril.htcmaskw1=14449 
 
 ro.ril.enable.a53=1
 ro.ril.enable.dtm=0
